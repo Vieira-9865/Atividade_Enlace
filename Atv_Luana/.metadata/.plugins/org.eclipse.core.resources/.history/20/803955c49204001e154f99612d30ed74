@@ -1,0 +1,10 @@
+package Pacotes;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Roteador r1 = new Roteador();
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package Pacotes;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Roteador r1 = new Roteador("192.168.0.65");
+		Roteador r2 = new Roteador("192.168.0.85");
+		Roteador r3 = new Roteador("192.168.0.15");
+		Roteador r4 = new Roteador("192.168.0.25");
+		Roteador r5 = new Roteador("192.168.0.75");
+		
+		
+
+	}
+
+}

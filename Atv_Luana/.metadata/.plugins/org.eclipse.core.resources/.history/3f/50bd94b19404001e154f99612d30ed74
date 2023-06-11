@@ -1,0 +1,29 @@
+package Pacotes;
+
+public abstract class Enlace {
+	
+	public String Origem;
+	public String Destino;
+	public int peso;
+	
+		public String getOrigem() {
+			return Origem;
+		}
+		public void setOrigem(String origem) {
+			Origem = origem;
+		}
+		public String getDestino() {
+			return Destino;
+		}
+		public void setDestino(String destino) {
+			Destino = destino;
+		}
+		public int getPeso() {
+			return peso;
+		}
+		public void setPeso(int peso) {
+			this.peso = peso;
+		}
+	
+
+}

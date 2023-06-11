@@ -1,0 +1,40 @@
+package Pacotes;
+
+public class Roteador {
+	
+	public String ip;
+	public String Destino;
+
+	public String Origem;
+	
+		public String getDestino() {
+			return Destino;
+		}
+		public void setDestino(String destino) {
+			Destino = destino;
+		}
+		public String getOrigem() {
+			return Origem;
+		}
+		public void setOrigem(String origem) {
+			Origem = origem;
+		}
+	
+	
+		public Roteador(String ipparametro) {
+			this.ip = ipparametro;
+		}
+		public String getIp() {
+			return ip;
+		}
+	
+		public void setIp(String ip) {
+			this.ip = ip;
+		}
+	
+	
+	
+	
+	
+
+}
